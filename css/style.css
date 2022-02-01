@@ -5,8 +5,9 @@
 }
 body{
     min-height: 100vh;
+    background-color: black;
 }
-.center_bloc{
+/* .center_bloc{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -19,13 +20,34 @@ body{
     height: 200px;
     border-radius: 9px;
     box-shadow: 0 0 4px grey;
-    background-image: url(../image/img_css.jfif);
-    transition: transform 1s , background-color 1s;
+    /* background-image: url(../image/img_css.jfif); */
+    /* transition: transform  1s , background-color 1s ;
     margin: 0 auto;
-}
-
+} */
+/* 
 .card:hover{
     background-color: hotpink;
-    transform: scale(1.1);
-  
+    transform: rotate(360deg);
+}  */
+
+.text_color{
+    color: grey;
+    font-size: 49px;
+    display: inline-block;
+}
+.text{
+    text-align: center;
+    padding-top: 50px;
+}
+/* 
+.text_color:hover{
+    color: darkorange;
+    box-shadow: 0 0 4px white;
+    transition: all 2s;
+} */
+.hover_text{
+    color: yellow;
+    box-shadow: 0 0 4px grey;
+    text-shadow: 0 0 104px red;
+    transition: color 0.2s;
 }
