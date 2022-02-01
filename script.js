@@ -1,5 +1,8 @@
 let color = document.querySelectorAll('.text_color');
-let text =document.querySelector('.text');
+let text = document.querySelector('.text');
+text.classList.add('effet')
+
+
 color.forEach(item =>{
     console.log(item)
     item.addEventListener('mouseover' ,()=>{
@@ -11,3 +14,5 @@ color.forEach(item =>{
         item.classList.toggle('hover_text');
     }
 })
+
+//changement de couleur 

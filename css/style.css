@@ -38,6 +38,7 @@ body{
 .text{
     text-align: center;
     padding-top: 50px;
+    width: 300px;
 }
 /* 
 .text_color:hover{
@@ -50,4 +51,8 @@ body{
     box-shadow: 0 0 4px grey;
     text-shadow: 0 0 104px red;
     transition: color 0.2s;
+}
+.effet{
+    transform: translateX(100px);
+    transition: transform 2s;
 }
